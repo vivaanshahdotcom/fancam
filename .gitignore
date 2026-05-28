@@ -1,0 +1,7 @@
+.vscode/
+build/
+.pio/
+*.log
+*.tmp
+*.bak
+*.swp
