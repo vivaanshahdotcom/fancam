@@ -1,5 +1,5 @@
 // =============================================================================
-// camera_pins.h — AI-Thinker ESP32-CAM pin definitions
+// esp32_cam_pins.h — AI-Thinker ESP32-CAM pin definitions
 // =============================================================================
 #pragma once
 

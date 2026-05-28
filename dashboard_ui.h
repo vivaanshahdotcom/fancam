@@ -1,5 +1,5 @@
 // =============================================================================
-// web_content.h — PROGMEM dashboard HTML/CSS/JS (no external CDN)
+// dashboard_ui.h — PROGMEM dashboard HTML/CSS/JS (no external CDN)
 // =============================================================================
 #pragma once
 #include <pgmspace.h>

@@ -11,7 +11,7 @@
  *   LED_PIN  = GPIO4   Onboard white/flash LED (active HIGH via LEDC)
  *   FAN_PIN  = GPIO13  PWM to fan MOSFET gate or 4-pin fan PWM input
  *   TACH_PIN = GPIO2   Tachometer input (INPUT_PULLUP, FALLING edge ISR)
- *   Camera pins defined in camera_pins.h (AI-Thinker OV2640)
+ *   Camera pins defined in esp32_cam_pins.h (AI-Thinker OV2640)
  *
  * Arduino IDE Board Settings:
  *   Board            : AI Thinker ESP32-CAM
@@ -64,8 +64,8 @@
 #include <esp_task_wdt.h>
 #include <math.h>
 
-#include "camera_pins.h"
-#include "web_content.h"
+#include "esp32_cam_pins.h"
+#include "dashboard_ui.h"
 
 // ─── Firmware version ────────────────────────────────────────────────────────
 #define FW_VERSION "1.0.0"
